@@ -21,3 +21,18 @@
 <li><b>git diff --staged</b>: compairs staging area to most recent commit</li>
 <li><b>git log --graph --online *branch1* *branch2*</b>: visualizes the commits of branch1 and branch2</li>
 <li><b>git show *commit ID*</b>: shows difference between the commit ID and it's parent</li>
+
+<p>
+	<H3> Other git commands that might be useful</H3>
+</p>
+
+<li><b>git remote -v </b>: returns remote URL info</li>
+<li><b>git add -i </b>: opens menu to group add untracked files</li>
+<li><b>git fetch origin</b>: update local with github master</li>
+<li><b>git branch -d *branch name*</b>: deletes branch name</li>
+<li><b>git remote</b>: returns list of remotes</li>
+<li><b>git remote add *remote name* *URL of remote*</b>: creates a remote for the file</li>
+<li><b>git checkout *commit ID*</b>: checks out the commit ID</li>
+<li><b>git merge *branch*</b>: merges branch into current directory</li>
+<li><b>git merge --abort</b>: aborts merge</li>
+<li><b>git reset --hard</b>: reverts to last commit and DELETES any uncommited changes</li>
